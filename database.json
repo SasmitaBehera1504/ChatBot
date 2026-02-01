@@ -1,0 +1,29 @@
+{
+  "organization": [
+    {
+      "org_id": 1,
+      "hospital_name": "City Hospital",
+      "admin_name": "Admin",
+      "email": "admin@hospital.com",
+      "active": true
+    }
+  ],
+
+  "users": [
+    { "user_id": 1, "name": "Sasmita", "email": "sasmita@gmail.com", "role": "patient", "org_id": 1 },
+    { "user_id": 2, "name": "Rohan", "email": "rohan@gmail.com", "role": "patient", "org_id": 1 },
+    { "user_id": 3, "name": "Priya", "email": "priya@gmail.com", "role": "patient", "org_id": 1 }
+  ],
+
+  "patient_profile": [
+    { "patient_id": 1, "user_id": 1, "age": 21, "gender": "Female", "contact_no": "9991112222" },
+    { "patient_id": 2, "user_id": 2, "age": 23, "gender": "Male", "contact_no": "9991113333" },
+    { "patient_id": 3, "user_id": 3, "age": 22, "gender": "Female", "contact_no": "9991114444" }
+  ],
+
+  "doctor_profile": [],
+  "appointments": [],
+  "prescriptions": [],
+  "prescription_medicines": [],
+  "medicine_intake_log": []
+}

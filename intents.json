@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "hii", "hola", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?"]
+    },
+
+    {
+      "tag": "bot_name",
+      "patterns": ["what is your name", "who are you", "your name", "tell me your name"],
+      "responses": ["I am MedCare Bot, your medical and health assistant."]
+    },
+
+    {
+      "tag": "add_medicine",
+      "patterns": ["add medicine", "add tablet", "new medication", "store medicine"],
+      "responses": ["Please provide the medicine name and time."]
+    },
+
+    {
+      "tag": "save_medicine",
+      "patterns": ["add * at *", "save medicine", "store my medicine", "add paracetamol at 6pm", "add my medicine"],
+      "responses": ["Got it! Saving your medicine."]
+    },
+
+    {
+      "tag": "get_medicine",
+      "patterns": ["next dose", "next medicine", "what should I take now", "what is my medicine", "when is my next tablet"],
+      "responses": ["Let me check your saved medicines..."]
+    },
+
+    {
+      "tag": "dosage",
+      "patterns": ["dosage", "how much to take", "medicine dose", "tablet dosage"],
+      "responses": ["Please follow the dosage prescribed by your doctor."]
+    },
+
+    {
+      "tag": "missed_dose",
+      "patterns": ["missed my dose", "forgot to take medicine", "missed medicine"],
+      "responses": ["If you miss a dose, take it as soon as possible or ask your doctor."]
+    },
+
+    {
+      "tag": "side_effects",
+      "patterns": ["side effects", "medicine side effects", "tablet side effects"],
+      "responses": ["If you experience side effects, consult your doctor immediately."]
+    },
+
+    {
+      "tag": "patient_profile",
+      "patterns": [
+        "show * profile",
+        "show profile of *",
+        "patient profile of *",
+        "give profile of *",
+        "details of *",
+        "show * details",
+        "show the profile of *"
+      ],
+      "responses": ["Fetching patient profile…"]
+    },
+
+    {
+      "tag": "patient_contact",
+      "patterns": [
+        "what is * contact",
+        "contact number of *",
+        "show * contact",
+        "give contact of *"
+      ],
+      "responses": ["Fetching contact details…"]
+    },
+
+    {
+      "tag": "patient_age",
+      "patterns": ["age of *", "what is * age", "show * age", "how old is *"],
+      "responses": ["Fetching age details…"]
+    },
+
+    {
+      "tag": "patient_gender",
+      "patterns": ["gender of *", "what is * gender", "is * male or female"],
+      "responses": ["Fetching gender details…"]
+    },
+
+    {
+      "tag": "patient_count",
+      "patterns": [
+        "how many patients",
+        "how many patients are there",
+        "total patients",
+        "number of patients",
+        "patients count",
+        "how many users are registered"
+      ],
+      "responses": ["Fetching patient count…"]
+    },
+
+    {
+      "tag": "all_patients",
+      "patterns": [
+        "show all patients",
+        "list all patients",
+        "show patient details",
+        "show the details of all the patients",
+        "give me all patient profiles",
+        "show all patient profiles"
+      ],
+      "responses": ["Fetching all patient profiles…"]
+    },
+
+    {
+      "tag": "cough_remedy",
+      "patterns": ["i have cough", "what to take for cough", "remedy for cough", "how to stop coughing", "cough problem"],
+      "responses": ["For cough: drink warm water, ginger-honey, take steam, and avoid cold drinks."]
+    },
+
+    {
+      "tag": "headache_remedy",
+      "patterns": ["i have headache", "what to do for headache", "remedy for headache", "my head is paining", "how to stop headache"],
+      "responses": ["For headache: drink water, rest your eyes, avoid screens, and use a cold compress."]
+    },
+
+    {
+      "tag": "cold_remedy",
+      "patterns": ["i have cold", "blocked nose", "runny nose", "remedy for cold", "how to treat cold"],
+      "responses": ["For cold: take steam, drink warm fluids, honey-lemon tea, and rest well."]
+    },
+
+    {
+      "tag": "fever_remedy",
+      "patterns": ["i have fever", "fever remedy", "what to do for fever", "how to reduce fever"],
+      "responses": ["For fever: drink water, use a cool compress, rest, and consult a doctor if needed."]
+    },
+
+    {
+      "tag": "firstaid_stomachpain",
+      "patterns": ["stomach pain", "my stomach is hurting", "first aid for stomach pain", "what to do for stomachache"],
+      "responses": ["For stomach pain: drink warm water, avoid heavy food, rest, and seek help if severe."]
+    },
+
+    {
+      "tag": "firstaid_burn",
+      "patterns": ["i got burned", "burn injury", "first aid for burn", "hot water burn", "my hand is burned"],
+      "responses": ["Cool the burn under running water for 10–15 minutes. Apply aloe vera or burn cream."]
+    },
+
+    {
+      "tag": "firstaid_cut",
+      "patterns": ["i have a cut", "first aid for cut", "what to do for wound", "my skin is bleeding", "cut on hand"],
+      "responses": ["Clean the wound, apply antiseptic, and cover it with a bandage."]
+    },
+
+    {
+      "tag": "storage_advice",
+      "patterns": ["how to store medicine", "medicine storage advice", "where to keep tablets", "how to store tablets safely"],
+      "responses": ["Store medicines in a cool, dry place away from sunlight."]
+    },
+
+    {
+      "tag": "popular_medicine",
+      "patterns": ["most prescribed medicine", "popular medicine", "which medicine is most used"],
+      "responses": ["The most prescribed medicine is {most_prescribed}."]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit", "quit", "thank you"],
+      "responses": ["Take care! Stay healthy."]
+    }
+  ]
+}
